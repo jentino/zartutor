@@ -38,6 +38,7 @@
     "asyncawait": "^1.0.8",
     "compression": "^1.7.3",
     "cors": "^2.8.5",
+    "feathers-memory": "^3.0.2",
     "feathers-nedb": "^4.0.1",
     "helmet": "^3.16.0",
     "nedb": "^1.8.0",
