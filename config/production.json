@@ -1,39 +1,4 @@
 {
-  "host": "zartutor.herokuapp.com",
-  "port": 80,
-  "public": "../public/",
-  "paginate": {
-    "default": 10,
-    "max": 50
-  },
-  "authentication": {
-    "secret": "c148710594b0344137fde909be6efd69f71b4578e8c84b125f653e81ccef25a53e0327a241a3a38f7b1b8a75ec02830827b628c0090f42b27f472cb6077ada02febfc266bbbbf1880a6d400dc10c7985db047622e787d01cb07df710228b7fc2fc69cb2eb8d7fe1d6cdd7caa5b49c4a5ce3d10822e4255fbc604e51c105d78a51a9986bdbd09bc44eddfa975ee872ca54aa3c111cb25d971f9527b67c7f0e145e214b700d4b4ff823195ed83579fc3f6b2501e531ab0c8b276412d911c0571bc475046d60dbcb143f31d24db5e1d38cd4187b3ca9fc32b5951e29bc3177a31ce4f649230e3bf1a7615b3b073f4e97213569d003e1173cc91275c6b3ce03c2f63",
-    "strategies": [
-      "jwt"
-    ],
-    "path": "/authentication",
-    "service": "users",
-    "jwt": {
-      "header": {
-        "typ": "access"
-      },
-      "audience": "https://zartutor.herokuapp.com/",
-      "subject": "anonymous",
-      "issuer": "feathers",
-      "algorithm": "HS256",
-      "expiresIn": "1d"
-    },
-    "github": {
-      "clientID": "a25e3451b6ac60022a3d",
-      "clientSecret": "8b6834f3c6142a32971bfb5b4740c76e3af37b4d",
-      "successRedirect": "/"
-    },
-    "cookie": {
-      "enabled": true,
-      "name": "feathers-jwt",
-      "httpOnly": false,
-      "secure": false
-    }
-  },
-  "mongodb": "mongodb://jentino:c00kies@ds125526.mlab.com:25526/heroku_3990hzwx"
+  "host": "zartutor-app.feathersjs.com",
+  "port": "PORT"
 }
