@@ -24,8 +24,8 @@
       "expiresIn": "1d"
     },
     "github": {
-      "clientID": "your github client id",
-      "clientSecret": "your github client secret",
+      "clientID": "a25e3451b6ac60022a3d",
+      "clientSecret": "8b6834f3c6142a32971bfb5b4740c76e3af37b4d",
       "successRedirect": "/"
     },
     "cookie": {
