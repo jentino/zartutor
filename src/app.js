@@ -54,8 +54,4 @@ app.use(express.errorHandler({ logger }));
 
 app.hooks(appHooks);
 
-let conf = configuration();
-
-console.log(conf());
-
 module.exports = app;
