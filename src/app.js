@@ -1,4 +1,4 @@
-// require('dotenv').config;
+require('dotenv').config;
 const path = require('path');
 const favicon = require('serve-favicon');
 const compress = require('compression');
@@ -53,5 +53,9 @@ app.use(express.notFound());
 app.use(express.errorHandler({ logger }));
 
 app.hooks(appHooks);
+
+let conf = configuration();
+
+console.log(conf());
 
 module.exports = app;
