@@ -6,5 +6,6 @@
     "default": 10,
     "max": 50
   },
-  "nedb": "../data"
+  "nedb": "../data",
+  "mysql": "mysql://azmezscu8qxs23sa:njqv7cjqz58anufg@kcpgm0ka8vudfq76.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/a2hb7brdzjm2uas5"
 }

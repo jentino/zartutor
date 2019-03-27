@@ -40,8 +40,11 @@
     "cors": "^2.8.5",
     "feathers-memory": "^3.0.2",
     "feathers-nedb": "^4.0.1",
+    "feathers-sequelize": "^4.1.1",
     "helmet": "^3.16.0",
+    "mysql2": "^1.6.5",
     "nedb": "^1.8.0",
+    "sequelize": "^4.43.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.2.1",
     "ws": "^6.2.0"
