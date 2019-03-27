@@ -19,6 +19,10 @@ const channels = require('./channels');
 
 const mongodb = require('./mongodb');
 
+const authentication = require('./authentication');
+
+const mongoose = require('./mongoose');
+
 const app = express(feathers());
 
 // Load app configuration
@@ -38,8 +42,10 @@ app.configure(express.rest());
 
 app.configure(primus({ transformer: 'websockets' }));
 app.configure(mongodb);
+app.configure(mongoose);
 // Configure other middleware (see `middleware/index.js`)
 app.configure(middleware);
+app.configure(authentication);
 // Set up our services (see `services/index.js`)
 app.configure(services);
 // Set up event channels (see channels.js)
