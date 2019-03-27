@@ -1,6 +1,6 @@
 {
   "host": "zartutor.herokuapp.com",
-  "port": 80,
+  "port": "PORT",
   "public": "../public/",
   "paginate": {
     "default": 10,
