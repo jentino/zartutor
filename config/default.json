@@ -17,7 +17,7 @@
       "header": {
         "typ": "access"
       },
-      "audience": "https://yourdomain.com",
+      "audience": "https://zartutor.herokuapp.com/",
       "subject": "anonymous",
       "issuer": "feathers",
       "algorithm": "HS256",
