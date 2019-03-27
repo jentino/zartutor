@@ -1,9 +1,4 @@
 {
   "host": "zartutor-app.feathersjs.com",
-  "port": "PORT",
-  "github": {
-      "clientID": "a25e3451b6ac60022a3d",
-      "clientSecret": "8b6834f3c6142a32971bfb5b4740c76e3af37b4d",
-      "successRedirect": "/"
-    },
+  "port": "PORT"
 }

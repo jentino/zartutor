@@ -15,7 +15,7 @@
     "service": "users",
     "jwt": {
       "header": {
-        "typ": "access"
+        "type": "access"
       },
       "audience": "https://zartutor.herokuapp.com/",
       "subject": "anonymous",
