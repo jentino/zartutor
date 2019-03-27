@@ -6,15 +6,12 @@
     "default": 10,
     "max": 50
   },
-  "nedb": "../data",
-  "mysql": "mysql://azmezscu8qxs23sa:njqv7cjqz58anufg@kcpgm0ka8vudfq76.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/a2hb7brdzjm2uas5",
   "authentication": {
-    "secret": "3eea9e7fb60588fddd06a431ce1b62a4b75d2f52d859b4fca5e1312e5c11a79f5a038e11a53ed3555a666ddf2b30dc2228a81ab4b624c8db299ee34d4278d29a82c875c5ce0b46730edae92362bc149a8fe4395f7c73f4949e7657cb7624bcb74042ad66a95114c8e279f3eb35b5507a73345fb2d00b145905594322bd94184513eb181e4e6e051c391f679f778e4170a9d74d3ee78a8dcba5abe15aaafbd9b025df80d7062bb2411579953b0814730f14a57e482071b818516fd971e4bd3427bc0d46d9a77a76f905f1af4920b22f8a4b25c91c7d104533c4d4338fe8c1c0004c59b5eb0a0285d21dec6e00ed6ba94d51e05ff601cc81175bd9b9431a035b73",
+    "secret": "095413fe0a8006fdbe306f404ff60669d9a3d2ea2436d585327da7c5d26358af46dc0d1a1caa884a92d9363d8fb72543f03d490a39fd61aa6e3636c5eedd5b953c82a0eef7cff7a906e532d258443ec15d8e5970387e42f0473a0ce438e740d361085a001177c8d8e9de8603a50d0fa140874b578ee96df4a169ce672174b693a70e74ee45874f70dd6e2444fec2a590e21c39de9b99b93b7377a45a1fd5ea94468fc5de9b9ba845e14be975717c2bac6a79868d92fd8bffdcf0d93962e235bcf4d575eb53f0d7a767aaa9228bd94dcb5f86dfb63c27b640a92e546d4d502d88bbfbb10109dd525ae4e9c5d3f210ed101512dd737ed364a2b4d4d96eca459167",
     "strategies": [
       "jwt"
     ],
     "path": "/authentication",
-    "service": "users",
     "jwt": {
       "header": {
         "typ": "access"
@@ -24,11 +21,6 @@
       "issuer": "feathers",
       "algorithm": "HS256",
       "expiresIn": "1d"
-    },
-    "github": {
-      "clientID": "your github client id",
-      "clientSecret": "your github client secret",
-      "successRedirect": "/"
     },
     "cookie": {
       "enabled": true,
