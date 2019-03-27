@@ -7,10 +7,11 @@
     "max": 50
   },
   "authentication": {
-    "secret": "b923819b64ea7142b3b0cad4e2e1f11f4cb2e0022c1938a0dc06ac902fb206a5b474ee8c34cae595cd5bc9c01d6f08133b84404108ddd17517efd3c4cbf6b27c5b1b4a599ce02d2bbb8eb2c63dac5616f3a77d949cec38ca81f87bacaf995acc127f5a89561886e9a74dee9f1ffa58b32f8b50dd1e16fdf62b171ea11a37f542693006597d1f10afb1324ceb7618d22854204c6cc47105e73394765c48c460c2555c3554bf123112a47e8b6eab98e6f537ba2598f428dcd1d4d0bc39fe1590984f0faf0e60a2cbbd2582619bc18b9229e0c9df0be8350134b8d21cea073201537258b67a74148e2eff822b4b886eb82ae3b1ee82a3b1436e2b885487aefa5086",
+    "secret": "c148710594b0344137fde909be6efd69f71b4578e8c84b125f653e81ccef25a53e0327a241a3a38f7b1b8a75ec02830827b628c0090f42b27f472cb6077ada02febfc266bbbbf1880a6d400dc10c7985db047622e787d01cb07df710228b7fc2fc69cb2eb8d7fe1d6cdd7caa5b49c4a5ce3d10822e4255fbc604e51c105d78a51a9986bdbd09bc44eddfa975ee872ca54aa3c111cb25d971f9527b67c7f0e145e214b700d4b4ff823195ed83579fc3f6b2501e531ab0c8b276412d911c0571bc475046d60dbcb143f31d24db5e1d38cd4187b3ca9fc32b5951e29bc3177a31ce4f649230e3bf1a7615b3b073f4e97213569d003e1173cc91275c6b3ce03c2f63",
     "strategies": [
       "jwt"
     ],
+    "path": "/authentication",
     "service": "users",
     "jwt": {
       "header": {
@@ -22,11 +23,17 @@
       "algorithm": "HS256",
       "expiresIn": "1d"
     },
+    "github": {
+      "clientID": "your github client id",
+      "clientSecret": "your github client secret",
+      "successRedirect": "/"
+    },
     "cookie": {
       "enabled": true,
       "name": "feathers-jwt",
       "httpOnly": false,
       "secure": false
     }
-  }
+  },
+  "mongodb": "mongodb://jentino:c00kies@ds125526.mlab.com:25526/heroku_3990hzwx"
 }
