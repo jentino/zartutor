@@ -11,7 +11,6 @@
     "strategies": [
       "jwt"
     ],
-    "path": "/authentication",
     "service": "users",
     "jwt": {
       "header": {
@@ -23,17 +22,11 @@
       "algorithm": "HS256",
       "expiresIn": "1d"
     },
-    "github": {
-      "clientID": "your github client id",
-      "clientSecret": "your github client secret",
-      "successRedirect": "/"
-    },
     "cookie": {
       "enabled": true,
       "name": "feathers-jwt",
       "httpOnly": false,
       "secure": false
     }
-  },
-  "mongodb": "mongodb://jentino:c00kies@ds125526.mlab.com:25526/heroku_3990hzwx"
+  }
 }
