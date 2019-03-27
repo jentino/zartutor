@@ -17,6 +17,8 @@ const services = require('./services');
 const appHooks = require('./app.hooks');
 const channels = require('./channels');
 
+const mongodb = require('./mongodb');
+
 const app = express(feathers());
 
 // Load app configuration
@@ -35,6 +37,7 @@ app.use('/', express.static(app.get('public')));
 app.configure(express.rest());
 
 app.configure(primus({ transformer: 'websockets' }));
+app.configure(mongodb);
 // Configure other middleware (see `middleware/index.js`)
 app.configure(middleware);
 // Set up our services (see `services/index.js`)

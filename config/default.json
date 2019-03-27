@@ -58,5 +58,6 @@
       "httpOnly": false,
       "secure": false
     }
-  }
+  },
+  "mongodb": "mongodb://<dbuser>:<dbpassword>@ds125526.mlab.com:25526/heroku_3990hzwx"
 }
