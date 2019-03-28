@@ -15,7 +15,7 @@
     "service": "users",
     "jwt": {
       "header": {
-        "type": "access"
+        "typ": "access"
       },
       "audience": "https://localhost/",
       "subject": "anonymous",
