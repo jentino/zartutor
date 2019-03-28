@@ -11,8 +11,8 @@
 }
 
 .card {
-  max-width: 30%;
+  max-width: 250px;
   /*max-height: 600px;*/
   margin: auto;
-  padding-top: 20px
+  padding-top: 120px
 }
