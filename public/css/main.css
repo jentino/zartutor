@@ -9,3 +9,10 @@
   margin: auto;
   padding-top: 20px
 }
+
+.card {
+  max-width: 30%;
+  /*max-height: 600px;*/
+  margin: auto;
+  padding-top: 20px
+}
