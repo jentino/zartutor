@@ -1,96 +1,52 @@
 <!DOCTYPE html>
 <html>
-    
 <head>
-	<title>My Awesome Login Page</title>
-	
-		
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-	
-	
-	
-	<link rel="stylesheet" href="./css/main.css">
+	<title>Animated Dynamic Form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
-<!--Coded with love by Mutiullah Samim-->
+
+<!-- Coded With Love By Mutiullah Samim-->
 <body>
-
-<l
-
-<div class="container">
-    <br>
-    <h4>Bootstrap 4 and CCS3 Product Cards with Transition - Techhowdy(demonguru18) - Lyoid Lopes</h2>
-	<br>
-	<div class="row" id="ads">
-    <!-- Category Card -->
-    <div class="col-md-4">
-        <div class="card rounded">
-            <div class="card-image">
-                <span class="card-notify-badge">Low KMS</span>
-                <span class="card-notify-year">2018</span>
-                <img class="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=USC80HOC011A021001.jpg&width=440&height=262" alt="Alternate Text" />
-            </div>
-            <div class="card-image-overlay m-auto">
-                <span class="card-detail-badge">Used</span>
-                <span class="card-detail-badge">$28,000.00</span>
-                <span class="card-detail-badge">13000 Kms</span>
-            </div>
-            <div class="card-body text-center">
-                <div class="ad-title m-auto">
-                    <h5>Honda Accord LX</h5>
-                </div>
-                <a class="ad-btn" href="#">View</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card rounded">
-            <div class="card-image">
-                <span class="card-notify-badge">Fully-Loaded</span>
-                <span class="card-notify-year">2017</span>
-                <img class="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=CAC80HOC021B121001.jpg&width=440&height=262" alt="Alternate Text" />
-            </div>
-            <div class="card-image-overlay m-auto">
-                <span class="card-detail-badge">Used</span>
-                <span class="card-detail-badge">$28,000.00</span>
-                <span class="card-detail-badge">13000 Kms</span>
-            </div>
-            <div class="card-body text-center">
-                <div class="ad-title m-auto">
-                    <h5>Honda CIVIC HATCHBACK LS</h5>
-                </div>
-                <a class="ad-btn" href="#">View</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="card rounded">
-            <div class="card-image">
-                <span class="card-notify-badge">Price Reduced</span>
-                <span class="card-notify-year">2018</span>
-                <img class="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=USC80HOC091A021001.jpg&width=440&height=262" alt="Alternate Text" />
-            </div>
-            <div class="card-image-overlay m-auto">
-                <span class="card-detail-badge">Used</span>
-                <span class="card-detail-badge">$22,000.00</span>
-                <span class="card-detail-badge">8000 Kms</span>
-            </div>
-            <div class="card-body text-center">
-                <div class="ad-title m-auto">
-                    <h5>Honda Accord Hybrid LT</h5>
-                </div>
-                <a class="ad-btn" href="#">View</a>
-            </div>
-        </div>
-    </div>
-
-</div>
-</div>
-	
-	
-	
+	<dvi class="container h-100">
+	<div class="d-flex justify-content-center">
+		<div class="card mt-5 col-md-4 animated bounceInDown myForm">
+			<div class="card-header">
+				<h4>Students Contact Details</h4>
+			</div>
+			<div class="card-body">
+				<form>
+					<div id="dynamic_container">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text br-15"><i class="fas fa-user-graduate"></i></span>
+							</div>
+							<input type="text" placeholder="Student Name" class="form-control"/>
+						</div>
+						<div class="input-group mt-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text br-15"><i class="fas fa-phone-square"></i></span>
+							</div>
+							<input type="text" placeholder="Student Phone" class="form-control"/>
+						</div>
+						<div class="input-group mt-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text br-15"><i class="fas fa-at"></i></span>
+							</div>
+							<input type="email" placeholder="Student Email" class="form-control"/>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<a class="btn btn-secondary btn-sm" id="add_more"><i class="fas fa-plus-circle"></i> Add</a>
+				<a class="btn btn-secondary btn-sm" id="remove_more"><i class="fas fa-trash-alt"></i> Remove</a>
+				<button class="btn btn-success btn-sm float-right submit_btn"><i class="fas fa-arrow-alt-circle-right"></i> Submit</button>
+			</div>
+		</div>
+	</div>
+	</dvi>
 </body>
 </html>
