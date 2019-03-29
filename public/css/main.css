@@ -42,10 +42,15 @@ body {
   font-size: 0.9rem;
 }
 
-.row .rowsidebar {
+.rowsidebar {
   margin: 0px;
 }
 
+
+.cellContainer {
+  width: 25%;
+  float: left;
+}
 .page-wrapper .sidebar-wrapper,
 .sidebar-wrapper .sidebar-brand > a,
 .sidebar-wrapper .sidebar-dropdown > a:after,
