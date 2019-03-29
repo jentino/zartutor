@@ -240,7 +240,7 @@ body {
   animation: swing ease-in-out 0.5s 1 alternate;
 }
 
-.sidebar-wrapper .sidebar-menu .sidebar-dropdown > a:after {
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebardivs> a:after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f105";
@@ -258,16 +258,16 @@ body {
   top: 14px;
 }
 
-.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu .sidebardivs ul {
   padding: 5px 0;
 }
 
-.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li {
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu .sidebardivs li {
   padding-left: 25px;
   font-size: 13px;
 }
 
-.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu .sidebardivs li a:before {
   content: "\f111";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
