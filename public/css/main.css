@@ -416,7 +416,7 @@ body {
 
 .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
 .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
-    border-color: red;
+    border-color: transparent;
     box-shadow: none;
 }
 
